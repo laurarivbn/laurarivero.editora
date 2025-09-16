@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>YOUR_NAME — Portafolio de edición de vídeo</title>
-  <meta name="description" content="Portafolio profesional de edición de vídeo — YOUR_NAME. Ejemplos de proyectos, proceso creativo y contacto.">
+  <title>Laura Rivero — Edición de video</title>
+  <meta name="description" content="Portfolio profesional de edición de vídeo — Laura Rivero. Ejemplos de proyectos, proceso creativo y contacto.">
 
   <style>
     :root{
@@ -117,6 +117,11 @@
       </div>
     </section>
 
+    <section>
+            
+            
+    </section>
+
     <!-- ABOUT -->
     <section id="about" class="section">
       <div style="display:flex;gap:18px;align-items:center;flex-wrap:wrap">
@@ -124,7 +129,7 @@
 " alt="Foto de perfil" style="width:140px;height:140px;border-radius:12px;object-fit:cover;border:4px solid rgba(155,227,200,0.08)">
         <div style="max-width:720px">
           <h3>Sobre mí</h3>
-          <p style="color:var(--muted)">Me dedico a la edición desde hace X años. Trabajo con directores y creativos para darle forma a ideas desde el guion hasta la versión final: edición, corrección de color, VFX básicos y entrega en plataformas. Herramientas: Premiere Pro, DaVinci Resolve, After Effects, Avid.</p>
+          <p style="color:var(--muted)">Me dedico a la edición desde hace X años. Trabajo con directores y creativos para darle forma a ideas desde el guion hasta la versión final: edición, corrección de color, VFX básicos y entrega en plataformas. Herramientas: Premiere Pro, DaVinci Resolve, After Effects.</p>
           <div style="display:flex;gap:8px;margin-top:10px;color:var(--muted)">
             <span>Premiere</span>•<span>DaVinci</span>•<span>After Effects</span>•<span>Foley & Sound Design</span>
           </div>
@@ -139,25 +144,29 @@
 
       <div class="grid" style="margin-top:18px">
         <!-- Card template: replace data attributes with real links / ids -->
-        <article class="card" data-type="vimeo" data-src="https://player.vimeo.com/video/000000000">
+        
           <div class="thumb" style="background-image:url('/assets/thumb1.jpg')" aria-hidden></div>
-          <h3>Videoclip: "Título del proyecto"</h3>
+          <iframe width="560" height="315"
+              src="https://www.youtube.com/embed/rdrIIJCJA9Y?si=5y3-4MmEU_GDlcxU" 
+              title="YouTube video player" 
+              frameborder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+              referrerpolicy="strict-origin-when-cross-origin" 
+              allowfullscreen>
+            </iframe>
           <div class="meta">Rol: Editor / Corrección de color • 2024</div>
-        </article>
 
-        <article class="card" data-type="youtube" data-src="https://www.youtube.com/embed/dQw4w9WgXcQ">
           <div class="thumb" style="background-image:url('/assets/thumb2.jpg')" aria-hidden></div>
-          <h3>Spot publicitario: "Marca X"</h3>
+          <iframe width="560" height="315" 
+              src="https://www.youtube.com/embed/MQqs4Vx9Xkw?si=ZRB2XzqeA2_OgDVd" 
+              title="YouTube video player" 
+              frameborder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+              referrerpolicy="strict-origin-when-cross-origin" 
+              allowfullscreen>
+            </iframe>
           <div class="meta">Rol: Editor • 2023</div>
-        </article>
 
-        <article class="card" data-type="video" data-src="/assets/project3.mp4">
-          <div class="thumb" style="background-image:url('/assets/thumb3.jpg')" aria-hidden></div>
-          <h3>Cortometraje: "Título"</h3>
-          <div class="meta">Rol: Editor / Postproducción • 2022</div>
-        </article>
-
-        <!-- Add more cards as needed -->
       </div>
     </section>
 
@@ -306,6 +315,7 @@
     form.addEventListener('submit', ()=>{
       // Optionally show a loader or disable button
     });
+
   </script>
 </body>
 </html>
